@@ -1,0 +1,109 @@
+int test[100];
+int arr[12];
+
+int functionONE(int a, int b, int c[])
+{
+/*get sum of first and second parameter
+	add 1 and 2 to the each paramter and store the result in array c*/
+	int sum;
+	
+	sum = a+ b;
+	
+	a = a + 1;
+	b = b + 2;
+	
+	c[0] = a;
+	c[1] = b;
+	c[2] = a+b;
+	sum = c[2];
+	return sum;
+}
+
+int functionTWO(int brr[]){
+/*I don't know what the function does. just write it to hand in HW#3*/	
+	int a;
+	int b;
+	int c;
+	int ret;
+
+	c = brr[3]*brr[4];
+	b = brr[1];
+
+	while(brr[2]){
+			
+			int d;
+			int e[5];
+
+			if(brr[3] == 3){
+				int a;
+				a = brr[99];
+				brr[3] = 18;
+				ret = a + c;
+			}else{
+				int a;
+				a = brr[98];
+				ret =  a + b;					
+			}
+	}
+	
+	if(brr[3]){
+		ret = functionTWO(brr); 
+	}
+	return ret;	
+}
+
+int crr[11];
+
+void main(void){
+	
+	int mainArr[3];
+	int temp;
+	int one;
+	int two;
+	one = 1;
+	two = 40;
+
+	temp = functionONE(one, two, mainArr); 
+
+	if(mainArr[3]==2){
+
+		int b;
+		
+		while(mainArr[3]){
+			int a;
+			a = functionONE(mainArr[0], mainArr[2], mainArr);
+		}
+
+		b = functionTWO(crr);
+		
+		if(b){
+			int a;
+			int b[2];
+			
+			a = 1;
+			while(a !=87){
+				int three;
+				
+				three = two/2;
+				a = a + three;	
+			}
+
+		}
+	}else{
+	 int three;
+
+	 one = 5;
+	 two = 10;
+	 	
+	 three = one*two;
+		
+		while(three != functionTWO(mainArr)){
+				int c;
+				int d;
+				c= 1;
+				d= 2;
+		}
+	}
+}
+
+
